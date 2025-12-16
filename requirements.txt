@@ -1,0 +1,12 @@
+pandas
+biopython
+openpyxl
+pyyaml
+click
+matplotlib
+seaborn
+python-pptx
+numpy
+Levenshtein
+scikit-learn
+scipy
