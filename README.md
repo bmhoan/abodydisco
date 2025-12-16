@@ -21,6 +21,7 @@ python setup.py install
 2.  How To Use AbodyDisco
 
 cd abodydisco
+
 python __main__.py process \
   --config config.yaml \
   --sample-sheet /Users/Hoan.Nguyen/ComBio/NGS/Projects/AntibodyDiscovery/Miseq104/Fastq/Miseq104_SampleSheet.xlsx \
