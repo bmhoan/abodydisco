@@ -62,7 +62,7 @@ python  __main__.py check-repeats --folder /Users/Hoan.Nguyen/ComBio/NGS/Project
 
 
 # My pipeline configuration
-# config.yaml - Single master configuration file
+#config.yaml - Single master configuration file
 
 current_library: "standard_fab"   # ← CHANGE THIS LINE
 
@@ -117,31 +117,6 @@ libraries:
     
     vl_barcode_region: [-70, -1]
 
-  fab4:
-  
-    vh_barcodes:
-    
-      VH1-69: "ACCACCCATCCATTCCAAACCTTGACCTGGAGCTTGTCTAACCCAAGAAAT"
-      
-      VH3-23: "GGCAGAAACCCATTCCAAACCCTTACCTGGAGCTTGTCTAACCCAAGACAT"
-      
-      VH4-30-4: "GTAACCAATCCATTCCAAACCCTTACCAGGTGGTTGTCTGATCCAAGACCA"
-      
-      VH5-51: "GATACCCATCCATTCCAAACCCTTACCTGGCATTTGTCTAACCCAACCAAT"
-      
-    vl_barcodes:
-    
-      VK1-39: "GAGGTGCAGTTG"
-      
-      VK3-15: "GAAGTTCAGTTA"
-      
-      VK4-1c: "GAAGTCCAACTT"
-      
-      VK2-28: "GAGGTTCAACTA"
-      
-    vh_barcode_region: [0, -1]
-    
-    vl_barcode_region: [-70, -1]
 
   vhh_full:
   
@@ -253,33 +228,7 @@ combine:
 
   #Critical liabilities for rank adjustment
   
-  critical_liabilities:
-  
-    - "l_glyco"
-    
-    - "l_RR"
-    
-    - "l_WW"
-    
-    - "l_cys"
-    
-    - "l_hydrophobic"
-    
-    - "l_neg_charge"
-    
-    - "l_pos_charge"
-    
-    - "l_arg"
-    
-    - "l_rmd"
 
-  #Clustering
-  
-  greedy_cutoff: 0.85
-
-  #Output
-  
-  top_leads_per_target: 10000
 
 pick_leads:
 
